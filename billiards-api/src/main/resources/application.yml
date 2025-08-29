@@ -2,6 +2,8 @@ server:
   port: 8280
 
 spring:
+  profiles:
+    active: security
   application:
     name: billiards-rank-api
 
